@@ -29,3 +29,17 @@
     -o-background-size: cover;
     background-size: cover;
 }
+
+/* to restrict clickable area to only the arrow button */
+.carousel-control {
+    top: 50%;
+    bottom: 50%;
+}
+
+/* to position button in the middle of the screen */
+.carousel-control > span > img {
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+    display: inline-block;
+}
