@@ -49,16 +49,11 @@ nav a {
     font-family: 'Roboto';
     font-style: italic;
     font-weight: bold;
-    float: left;
+    float: right;
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     letter-spacing: 5px;
-}
-
-nav a img {
-    height: 30px;
-    width: 300px;
 }

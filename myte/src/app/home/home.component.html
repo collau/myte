@@ -8,11 +8,16 @@
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
-    <div class="item active" style="background-image: url('../assets/LionKing.jpg')">
+    <div
+    type="button"
+    class="item active"
+    style="background-image: url('../assets/LionKing.jpg'); background-position: 0 0; cursor: pointer;"
+    (click)="redirect('about')">
+    <!-- onclick="location.href='https://www.google.com';" -->
       <!-- <img src="../assets//LionKing.jpg" alt="Chicago" width="100%" height="100%"> -->
     </div>
 
-    <div class="item" style="background-image: url('../assets/Myte_5MT.jpg')">
+    <div class="item" style="background-image: url('../assets/Myte_5MT.jpg');">
       <!-- <img src="../assets//Myte_5MT2.jpeg" alt="Chicago" width="100%" height="100%"> -->
     </div>
   
